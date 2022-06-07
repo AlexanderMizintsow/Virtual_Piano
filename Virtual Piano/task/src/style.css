@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(27, 18, 1);
+
+}
+
+.container {
+    text-align: center;
+    margin-top: 12%;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    width: 4vw;
+    height: 10vh;
+    background-color: white;
+    border: 1px white solid;
+    padding-top: 30vh;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    width: 3vw;
+    height: 25vh;
+    border: 1px black solid;
+    color: white;
+    margin-right: 1vw;
+}
+
+.black-keys {
+    position: absolute;
+    z-index: 3;
+    padding-left: 37vw;
+}
+
+.keybord-t {
+    margin-left: 4.6vw;
+}
+
+
